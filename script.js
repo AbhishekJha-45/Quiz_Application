@@ -61,7 +61,7 @@ const Questions = [{
     {
         id: 6,
         ques: "Which Player has most wickets in Test Format ?",
-        a: [
+        opt: [
             { option: "Anil Kumble", isTrue: false },
             { option: "James Anderson", isTrue: true },
             { option: "Stuart Broad", isTrue: false },
