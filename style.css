@@ -58,6 +58,11 @@
 }
 
 @media (max-width:481px) {
+    .main-container{
+        width: 90%;
+        margin: 10% 5%;
+        height: 500px;
+    }
     .option-container {
         display: flex;
         flex-direction: column;
