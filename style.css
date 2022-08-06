@@ -2,58 +2,76 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    position: relative;
+    font-family: sans-serif;
+    font-size: large;
+    font-weight: normal;
 }
 
 
-.btn {
-    width: 200px;
-    height: 50px;
-    border-radius: 0.5rem;
-    box-shadow: 8px 10px black;
-    margin: 10px;    
-}
-
-.result {
-    box-sizing: border-box;
-    display: flex;
+.main-container {
+    background: teal;
+    width: 70%;
     justify-content: center;
-    width: 200px;
-    height: 50px;
-    border-radius: 5px;
-    align-items: center;
-}
-
-.question {
-    box-sizing: border-box;
-    font-size: xx-large;
-    padding: 20px;
-    border-radius: .75rem;
-    margin: 0 0 20px 0;
-    background-color: #44d044;
-    word-wrap: normal;
-}
-
-body {
-    box-sizing: border-box;
-    margin-top: 10%;
-    background-color: teal;
     display: flex;
+    margin: 10% 15%;
+    height: 400px;
+    align-items: center;
+    padding: 10px 10px;
+    position: relative;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    align-self: center;
 }
 
 .option-container {
-    margin-bottom: 20px;
-    box-sizing: border-box;
+    /* background: lightcoral; */
+    margin: 0 10%;
+    /* box-sizing: border-box;
+    justify-items: center; */
+    padding-top: 30px;
 }
 
-.button{
-     width: 150px;
-    height: 50px;
-    border-radius: 7px;
-    margin-top: 20px;
+.question {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: x-large;
+    color: white;
+
+}
+
+.btn {
+    margin-top: 10px;
+}
+
+#evaluate {
+    /* margin-top: 30px; */
+    width: 100px;
+}
+
+#next {
+    /* margin-top: 30px; */
+    width: 100px;
+}
+
+#result {
+    margin-top: 10px;
+    width: auto;
+}
+
+@media (max-width:481px) {
+    .option-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #evaluate {
+        /* margin-top: 30px; */
+        width: 80px;
+        background-color: antiquewhite;
+    }
+
+    #next {
+        /* margin-top: 30px; */
+        width: 80px;
+        background-color: antiquewhite;
+    }
 }
